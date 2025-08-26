@@ -22,6 +22,36 @@ import beef02 from "./assets/beef/beef_02_肋眼.jpg";
 import beef03 from "./assets/beef/beef_03_西冷.jpg";
 import beef04 from "./assets/beef/beef_04_牛柳.jpg";
 import beef05 from "./assets/beef/beef_05_牛腱.jpg";
+import pork01 from "./assets/pork/pork_01_豬里肌.jpg";
+import pork02 from "./assets/pork/pork_02_豬五花肉.jpg";
+import pork03 from "./assets/pork/pork_03_豬梅花肉.jpg";
+import pork04 from "./assets/pork/pork_04_豬頰肉.jpg";
+import pork05 from "./assets/pork/pork_05_排骨.jpg";
+import goat01 from "./assets/goat/goat_01_羊肩.jpg";
+import goat02 from "./assets/goat/goat_02_羊腿.jpg";
+import goat03 from "./assets/goat/goat_03_羊排.jpg";
+import goat04 from "./assets/goat/goat_04_羊鞍.jpg";
+import bird01 from "./assets/bird/bird_01_雞肉.jpg";
+import bird02 from "./assets/bird/bird_02_鴨肉.jpg";
+import bird03 from "./assets/bird/bird_03_鵝肉.jpg";
+import fish01 from "./assets/fish/fish_01_鱈魚.jpg";
+import fish02 from "./assets/fish/fish_02_鯛魚.jpg";
+import fish03 from "./assets/fish/fish_03_比目魚.jpg";
+import fish04 from "./assets/fish/fish_04_鯧魚.jpg";
+import fish05 from "./assets/fish/fish_05_黃花魚.jpg";
+import fish201 from "./assets/fish2/fish2_01_三文魚.jpg";
+import fish202 from "./assets/fish2/fish2_02_鯖魚.jpg";
+import fish203 from "./assets/fish2/fish2_03_鱸魚.jpg";
+import fish204 from "./assets/fish2/fish2_04_鰻魚.jpg";
+import shellfish01 from "./assets/shellfish/shellfish_01_蝦.jpg";
+import shellfish02 from "./assets/shellfish/shellfish_02_龍蝦.jpg";
+import shellfish03 from "./assets/shellfish/shellfish_03_螃蟹.jpg";
+import shellfish04 from "./assets/shellfish/shellfish_04_蠔.jpg";
+import shellfish05 from "./assets/shellfish/shellfish_05_扇貝.jpg";
+import shellfish06 from "./assets/shellfish/shellfish_06_魷魚.jpg";
+import shellfish07 from "./assets/shellfish/shellfish_07_海螺.jpg";
+import shellfish08 from "./assets/shellfish/shellfish_08_鮑魚.jpg";
+
 
 
 export const vegetable01 =[
@@ -195,7 +225,7 @@ export const cardmeat =[
         image: cardmeat01,
         title: '紅肉',
         alt: '紅肉',
-        text: '因含有較多的「肌紅蛋白」（一種儲存氧氣的蛋白質），生肉呈現紅色，煮熟後變為褐色。主要營養包括鐵（吸收率高的血基質鐵）、鋅、維生素B12、蛋白質、維生素B群（如菸鹼酸）。常見例子有牛肉、豬肉、羊肉、肋排、牛排、火腿。',
+        text: '因含有較多的「肌紅蛋白」（一種儲存氧氣的蛋白質），生肉呈現紅色，煮熟後變為褐色。主要營養包括鐵（吸收率高的血基質鐵）、鋅、維生素B12、蛋白質、維生素B群（如菸鹼酸）。',
         link: '/redmeat'
 
     },
@@ -205,7 +235,7 @@ export const cardmeat =[
         image: cardmeat02,
         title: '白肉',
         alt: '白肉',
-        text: '因含有較多的「肌紅蛋白」（一種儲存氧氣的蛋白質），生肉呈現紅色，煮熟後變為褐色。白肉脂肪較低（尤其是去皮後）、主要包括維生素B群（如B6、菸鹼酸）、磷、硒。常見例子有雞胸肉、雞腿、鴨肉、火雞胸。',
+        text: '因含有較多的「肌紅蛋白」（一種儲存氧氣的蛋白質），生肉呈現紅色，煮熟後變為褐色。白肉脂肪較低（尤其是去皮後）、主要包括維生素B群（如B6、菸鹼酸）、磷、硒。',
         link: '/whitemeat'
 
     },
@@ -215,7 +245,7 @@ export const cardmeat =[
         image: cardmeat03,
         title: '海鮮',
         alt: '海鮮',
-        text: '這是一個非常多元化的類別，包括脂肪含量高的魚和脂肪含量低的魚，以及甲殼類和軟體動物。主要營養包括Omega-3脂肪酸（特別是深海魚）、高品質蛋白質、維生素D、碘、硒、鈣（帶骨小魚及貝類）。常見例子有魚類、蝦、蟹、龍蝦、蛤蜊、牡蠣。',
+        text: '這是一個非常多元化的類別，包括脂肪含量高的魚和脂肪含量低的魚，以及甲殼類和軟體動物。主要營養包括Omega-3脂肪酸（特別是深海魚）、高品質蛋白質、維生素D、碘、硒、鈣（帶骨小魚及貝類）。',
         link: '/seafood'
 
     },
@@ -263,5 +293,240 @@ export const beef =[
 
     },
 
+
+]
+
+
+export const pork =[
+    {
+        id:1,
+        image: pork01,
+        alt: '豬里肌(豬扒)'
+
+    },
+
+    {
+        id:2,
+        image: pork02,
+        alt: '豬五花肉'
+
+    },
+
+    
+    {
+        id:3,
+        image: pork03,
+        alt: '豬梅花肉'
+
+    },
+
+    {
+        id:4,
+        image: pork04,
+        alt: '豬頰肉'
+
+    },
+
+    {
+        id:5,
+        image: pork05,
+        alt: '排骨'
+
+    },
+
+
+]
+
+
+export const goat =[
+    {
+        id:1,
+        image: goat01,
+        alt: '羊肩'
+
+    },
+
+    {
+        id:2,
+        image: goat02,
+        alt: '羊腿'
+
+    },
+
+    
+    {
+        id:3,
+        image: goat03,
+        alt: '羊排'
+
+    },
+
+    {
+        id:4,
+        image: goat04,
+        alt: '羊鞍'
+
+    },
+
+
+]
+
+export const bird =[
+    {
+        id:1,
+        image: bird01,
+        alt: '雞肉'
+
+    },
+
+    {
+        id:2,
+        image: bird02,
+        alt: '鴨肉'
+
+    },
+
+    
+    {
+        id:3,
+        image: bird03,
+        alt: '鵝肉'
+
+    },
+
+]
+
+export const fish =[
+    {
+        id:1,
+        image: fish01,
+        alt: '鱈魚'
+
+    },
+
+    {
+        id:2,
+        image: fish02,
+        alt: '鯛魚'
+
+    },
+
+    
+    {
+        id:3,
+        image: fish03,
+        alt: '比目魚'
+
+    },
+    
+    {
+        id:4,
+        image: fish04,
+        alt: '鯧魚'
+
+    },
+
+    
+    {
+        id:5,
+        image: fish05,
+        alt: '黃花魚'
+
+    },
+]
+
+
+export const fish2 =[
+    {
+        id:1,
+        image: fish201,
+        alt: '三文魚'
+
+    },
+
+    {
+        id:2,
+        image: fish202,
+        alt: '鯖魚'
+
+    },
+
+    
+    {
+        id:3,
+        image: fish203,
+        alt: '鱸魚'
+
+    },
+    
+    {
+        id:4,
+        image: fish204,
+        alt: '鰻魚（鱔）'
+
+    },
+
+
+]
+
+
+
+export const shellfish =[
+    {
+        id:1,
+        image: shellfish01,
+        alt: '蝦'
+
+    },
+
+    {
+        id:2,
+        image: shellfish02,
+        alt: '龍蝦'
+
+    },
+
+    
+    {
+        id:3,
+        image: shellfish03,
+        alt: '螃蟹'
+
+    },
+    
+    {
+        id:4,
+        image: shellfish04,
+        alt: '蠔'
+
+    },
+    {
+        id:5,
+        image: shellfish05,
+        alt: '扇貝'
+
+    },
+
+    {
+        id:6,
+        image: shellfish06,
+        alt: '魷魚'
+
+    },
+
+    
+    {
+        id:7,
+        image: shellfish07,
+        alt: '海螺'
+
+    },
+    
+    {
+        id:8,
+        image: shellfish08,
+        alt: '鮑魚'
+
+    },
 
 ]

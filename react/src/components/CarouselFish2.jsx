@@ -1,15 +1,15 @@
 import Carousel from 'react-bootstrap/Carousel';
 import CarouselImage from './CarouselImage';
-import { beef } from '../data';
+import { fish2} from '../data';
 
 
-function CarouselBeef() {
+function CarouselFish2() {
   return (
     
     <div className="container-carousel">
             <Carousel>
                 {
-                    beef.map((img)=>(
+                    fish2.map((img)=>(
                         <Carousel.Item >
                         <CarouselImage key={img.id} image={img.image} alt={img.alt} text={img.id}  />
                         <Carousel.Caption>
@@ -29,7 +29,7 @@ function CarouselBeef() {
   );
 }
 
-export default CarouselBeef
+export default CarouselFish2
 
 
 

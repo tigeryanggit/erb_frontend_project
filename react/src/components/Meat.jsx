@@ -1,6 +1,7 @@
 import React from 'react';
 import Cardmeat from './Cardmeat';
 import {cardmeat} from '../data';
+import CarouselBeef from './CarouselBeef';
 
 function Meat() {
   return (

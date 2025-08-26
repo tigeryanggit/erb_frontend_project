@@ -37,7 +37,7 @@ const Navbar = () => {
                         <li><Link to="/vegetable">素類介紹</Link></li>
                         <li><Link to="/recipe">食譜簡介</Link></li>
                         <li><Link to="/about">關於</Link></li>
-                        {/* <li><Link to="/redmeat">Redmeat</Link></li> */}
+
                         
                         
                     </ul>

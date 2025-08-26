@@ -254,9 +254,11 @@ a:hover {
 }
 
 
-.container-purchase {
+
+.container-purchase, .container-meat {
     padding-top: var(--margin-nav);
     color: var(--primary-black);
+
 
 
     h2 {
@@ -264,14 +266,44 @@ a:hover {
         font-weight: 600;
         font-size: 2.5rem;
         text-align: center;
+        color: var(--primary-5);
 
     }
+
+    h3 {
+        padding-top: var(--margin-nav);
+        font-weight: 600;
+        font-size: 1.8rem;
+        text-align: center;
+        color: var(--primary-5)
+    }
+
+
+    h5::first-letter {
+        font-size: 2.2rem;
+    }
+
 
     >p {
 
         font-size: 1.5rem;
         text-align: center;
     }
+}
+
+.card-meat .card-body {
+    background-color: var(--primary-2);
+    padding-bottom: 0;
+    margin-bottom: 0;
+} 
+
+.card-meat .col-md {
+    background-color:var(--primary-2);
+}
+
+.card-meat img {
+    min-height: 250px;
+    min-width: 300px;
 }
 
 .card {
@@ -405,14 +437,51 @@ a:hover {
     }
 }
 
+.container-meat {
+
+    padding: var(--margin-nav) 20px var(--margin-nav) 20px;
+    max-width: var(--max-width);
+    margin: 0 auto;
+
+
+}
+
+.card-meat {
+    width: 100%;
+
+
+    .card-img-top {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .card-body {
+        width: 100%;
+        padding: 20px;
+        margin:0;
+    h5 {
+        color: var(--primary-7);
+    }
+
+    }
+
+    .card-text {
+        width: 100%;
+    }
+
+
+
+}
 
 
 
 .about {
 
     border: var(--border-test);
-    width:100%;
-    
+    width:100%;    
     padding: 0 20px 20px 20px;
     height: calc(100vh - var(--margin-nav));
     max-width: 700px;
@@ -423,10 +492,6 @@ a:hover {
     flex-wrap: wrap;
     justify-content: center;
     align-items:start;
-
-    /* background-color: var(--primary-white); */
-
-
     font-size: 1.2rem;
 
     iframe {

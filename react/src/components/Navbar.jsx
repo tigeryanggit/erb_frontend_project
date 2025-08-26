@@ -4,6 +4,10 @@ import logo from "/src/assets/Logo.png";
 import { BrowserRouter, Link, Routes, Route } from 'react-router-dom';
 import ScrollToTop from "./ScrollToTop";
 import Purchase from "./Purchase";
+import Meat from "./Meat";
+import Redmeat from './Redmeat';
+import Whitemeat from './Whitemeat';
+import Seafood from './Seafood';
 import Main from "../components/Main";
 import About from "../components/About";
 
@@ -33,6 +37,7 @@ const Navbar = () => {
                         <li><Link to="/vegetable">素類介紹</Link></li>
                         <li><Link to="/recipe">食譜簡介</Link></li>
                         <li><Link to="/about">關於</Link></li>
+                        {/* <li><Link to="/redmeat">Redmeat</Link></li> */}
                         
                         
                     </ul>
@@ -66,7 +71,10 @@ const Navbar = () => {
             {/* <Route path="/" element={<Home />} /> */}
             <Route path="/" element={<Main />} />
             <Route path="/purchase" element={<Purchase />} />
-
+            <Route path="/meat" element={<Meat />} />
+            <Route path="/redmeat" element={<Redmeat />} />
+            <Route path="/whitemeat" element={<Whitemeat />} />
+            <Route path="/seafood" element={<Seafood />} />
             <Route path="/about" element={<About />} />
             {/* <Route path="/contact" element={<Contact />} /> */}
             {/* Add footer */}

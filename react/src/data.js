@@ -14,6 +14,15 @@ import pic_04_01 from './assets/picture/04_01蘿蔔.jpg';
 import pic_04_02 from './assets/picture/04_02西洋菜.jpg';
 import pic_04_03 from './assets/picture/04_03生菜.jpg';
 import pic_04_04 from './assets/picture/04_04茼蒿.jpg';
+import cardmeat01 from "./assets/redmeat.jpg"; 
+import cardmeat02 from "./assets/whitemeat.jpg"; 
+import cardmeat03 from "./assets/seafood.jpg"; 
+import beef01 from "./assets/beef/beef_01_牛腩.jpg";
+import beef02 from "./assets/beef/beef_02_肋眼.jpg";
+import beef03 from "./assets/beef/beef_03_西冷.jpg";
+import beef04 from "./assets/beef/beef_04_牛柳.jpg";
+import beef05 from "./assets/beef/beef_05_牛腱.jpg";
+
 
 export const vegetable01 =[
     {
@@ -173,6 +182,84 @@ export const vegetable04 =[
         text: '冬季是它的主場，火鍋必備，香氣濃郁。',
         price: '$12-$18/斤',
 
+
+    },
+
+
+]
+
+
+export const cardmeat =[
+    {
+        id:1,
+        image: cardmeat01,
+        title: '紅肉',
+        alt: '紅肉',
+        text: '因含有較多的「肌紅蛋白」（一種儲存氧氣的蛋白質），生肉呈現紅色，煮熟後變為褐色。主要營養包括鐵（吸收率高的血基質鐵）、鋅、維生素B12、蛋白質、維生素B群（如菸鹼酸）。常見例子有牛肉、豬肉、羊肉、肋排、牛排、火腿。',
+        link: '/redmeat'
+
+    },
+
+    {
+        id:2,
+        image: cardmeat02,
+        title: '白肉',
+        alt: '白肉',
+        text: '因含有較多的「肌紅蛋白」（一種儲存氧氣的蛋白質），生肉呈現紅色，煮熟後變為褐色。白肉脂肪較低（尤其是去皮後）、主要包括維生素B群（如B6、菸鹼酸）、磷、硒。常見例子有雞胸肉、雞腿、鴨肉、火雞胸。',
+        link: '/whitemeat'
+
+    },
+
+    {
+        id:3,
+        image: cardmeat03,
+        title: '海鮮',
+        alt: '海鮮',
+        text: '這是一個非常多元化的類別，包括脂肪含量高的魚和脂肪含量低的魚，以及甲殼類和軟體動物。主要營養包括Omega-3脂肪酸（特別是深海魚）、高品質蛋白質、維生素D、碘、硒、鈣（帶骨小魚及貝類）。常見例子有魚類、蝦、蟹、龍蝦、蛤蜊、牡蠣。',
+        link: '/seafood'
+
+    },
+
+
+
+]
+
+
+
+export const beef =[
+    {
+        id:1,
+        image: beef01,
+        alt: '牛腩'
+
+    },
+
+    {
+        id:2,
+        image: beef02,
+        alt: '肋眼'
+
+    },
+
+    
+    {
+        id:3,
+        image: beef03,
+        alt: '西冷'
+
+    },
+
+    {
+        id:4,
+        image: beef04,
+        alt: '牛柳'
+
+    },
+
+    {
+        id:5,
+        image: beef05,
+        alt: '牛腱'
 
     },
 

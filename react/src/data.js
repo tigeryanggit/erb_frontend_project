@@ -530,3 +530,27 @@ export const shellfish =[
     },
 
 ]
+
+
+export const MenuMeat =[
+    {
+        id:1,
+        link: '/meat',
+        item: '肉類介紹'
+    },
+    {
+        id:2,
+        link: '/redmeat',
+        item: '紅肉'
+    },
+    {
+        id:3,
+        link: '/whitemeat',
+        item: '白肉'
+    },
+    {
+        id:4,
+        link: '/seafood',
+        item: '海鮮'
+    },
+]

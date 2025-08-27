@@ -1,8 +1,8 @@
 import React from 'react'
 import Navbar from './Navbar';
 import Footer from './Footer';
-import Dropdown from './Dropdown';
-import TypeExample from './Button';
+import DropdownMeat from './DropdownMeat';
+
 // import maintokyo from "../assets/main/main-tokyo.png";
 // import mainseoul from "../assets/main/main-seoul.png";
 // import mainbangkok from "../assets/main/main-bangkok.png";
@@ -20,7 +20,7 @@ function Main() {
 
             <h2>買菜</h2>
             <p>本網站主要為你介紹XXX</p>
-            <Dropdown />
+            <DropdownMeat />
 
             {/* <TypeExample /> */}
 

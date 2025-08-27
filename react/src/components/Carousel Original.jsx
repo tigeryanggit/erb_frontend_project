@@ -1,6 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
 import CarouselImage from './CarouselImage';
-import { CarouselTokyo } from '../data';
 
 function UncontrolledExample() {
   return (

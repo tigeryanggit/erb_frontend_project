@@ -1,6 +1,7 @@
 import React from 'react'
 import CarouselBird from './CarouselBird';
 import CarouselFish from './CarouselFish';
+import Footer from './Footer';
 
 
 function Whitemeat() {
@@ -40,7 +41,7 @@ function Whitemeat() {
             </div>
 
         </div>
-
+        <Footer /> 
     </>
   )
 }

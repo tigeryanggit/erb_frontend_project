@@ -2,11 +2,12 @@ import React from 'react'
 import CarouselBird from './CarouselBird';
 import CarouselFish from './CarouselFish';
 import Footer from './Footer';
-
+import Shopping from './Shopping';
 
 function Whitemeat() {
   return (
    <>
+        <Shopping />
         <div className="container-whitemeat">
                 <h2>白肉</h2>
                 <br />
@@ -22,6 +23,7 @@ function Whitemeat() {
                     <p class="card-text">雞肉、鴨肉、鵝肉等。</p>
                     <p class="card-text">特點：</p> 
                     <p class="card-text">廣東燒味常見的素材，大多以慢煮為主以保持肉質鮮嫩。</p>
+                    <br />
                 </div>
 
             </div>
@@ -36,6 +38,7 @@ function Whitemeat() {
                     <p class="card-text">鱈魚、鯛魚、比目魚、鯧魚、黃花魚等。</p>
                     <p class="card-text">特點：</p> 
                     <p class="card-text">肉質細嫩，脂肪含量通常較低（但並非全部，例如富含油脂的鮭魚就更常被單獨分類）。</p>
+                    <br />
                 </div>
 
             </div>

@@ -2,6 +2,7 @@ import React from 'react'
 import CardSample from './Card'
 import ButtonGroup from './ButtonGroup';
 import Footer from './Footer';
+import Shopping from './Shopping';
 import { vegetable01 } from '../data';  
 import { vegetable02 } from '../data';  
 import { vegetable03 } from '../data';  
@@ -13,7 +14,7 @@ function Season() {
 
 
         <ButtonGroup />
-
+        <Shopping />
         <div className="container-purchase" id="spring">
           <h2>春季（3月至5月）</h2>
           <br />

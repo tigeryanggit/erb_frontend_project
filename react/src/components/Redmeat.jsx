@@ -3,11 +3,13 @@ import CarouselBeef from './CarouselBeef';
 import CarouselPork from './CarouselPork';
 import CarouselGoat from './CarouselGoat';
 import Footer from './Footer';
+import Shopping from './Shopping';
 
 
 function Redmeat() {
   return (
     <>
+        <Shopping />
         <div className="container-redmeat">
                 <h2>紅肉</h2>
                 <br />
@@ -23,6 +25,7 @@ function Redmeat() {
                     <p class="card-text">牛腩、肋眼、西冷、牛柳、牛小排、牛腱等。</p>
                     <p class="card-text">特點：</p> 
                     <p class="card-text">風味濃郁，是全球消費最廣泛的紅肉之一。質地從軟嫩（如菲力）到富有嚼勁（如牛腱）不等。</p>
+                    <br />
                 </div>
 
             </div>
@@ -37,6 +40,7 @@ function Redmeat() {
                     <p class="card-text">豬里肌（豬扒）、豬五花肉、豬梅花肉、豬頰肉、排骨等。</p>
                     <p class="card-text">特點：</p> 
                     <p class="card-text">雖然烹飪後的豬肉常呈現白色，但根據其肌紅蛋白含量，在營養學和食品科學上仍被歸類為紅肉。肉質和脂肪含量因部位不同而有很大差異。</p>
+                    <br />
                 </div>
 
             </div>
@@ -50,6 +54,7 @@ function Redmeat() {
                     <p class="card-text">羊肩、羊腿、羊排、羊鞍等。</p>
                     <p class="card-text">特點：</p> 
                     <p class="card-text">具有獨特的羶味，風味強烈。肉質通常比牛肉細嫩，脂肪融點較高。</p>
+                    <br />
                 </div>
 
             </div>

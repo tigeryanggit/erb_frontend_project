@@ -10,6 +10,12 @@ import Whitemeat from './Whitemeat';
 import Seafood from './Seafood';
 import Main from "../components/Main";
 import About from "../components/About";
+import DropdownHome from './DropdownHome';
+import DropdownMeat from './DropdownMeat';
+import DropdownMap from './DropdownMap';
+import DropdownPurchase from './DropdownPurchase';
+
+
 
 const Navbar = () => {
 
@@ -30,14 +36,22 @@ const Navbar = () => {
                 <div className="nav-menu">
                     <ul>
 
+                        {/* <li><DropdownHome /></li>                        
+                        <li><DropdownMap /></li>
+                        <li><DropdownPurchase /></li>
+                        <li><DropdownMeat /></li>
+                        <li><DropdownVegetable /></li>
+                        <li><DropdownRecipe /></li>
+                        <li><DropdownAbout /></li> */}
+
+
                         <li><Link to="/">首頁</Link></li>
                         <li><Link to="/map">街巿地圖</Link></li>
                         <li><Link to="/purchase">時令蔬菜</Link></li>
-                        <li><Link to="/meat">肉類介紹</Link></li>
+                        <li><DropdownMeat /></li>
                         <li><Link to="/vegetable">素類介紹</Link></li>
                         <li><Link to="/recipe">食譜簡介</Link></li>
                         <li><Link to="/about">關於</Link></li>
-
                         
                         
                     </ul>

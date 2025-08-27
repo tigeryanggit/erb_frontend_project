@@ -1,5 +1,3 @@
-import React from 'react'
-
 
 function CardSample({image, title, text, price}) {
   return (

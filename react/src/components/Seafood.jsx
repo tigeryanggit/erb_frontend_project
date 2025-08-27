@@ -1,6 +1,7 @@
 import React from 'react'
 import CarouselFish2 from './CarouselFish2';
 import CarouselShellfish from './CarouselShellfish';
+import Footer from './Footer';
 
 function Seafood() {
   return (
@@ -39,7 +40,7 @@ function Seafood() {
             </div>
 
         </div>
-
+        <Footer />
     </>
 
   )

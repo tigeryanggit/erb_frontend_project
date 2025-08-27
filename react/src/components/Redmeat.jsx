@@ -2,6 +2,7 @@ import React from 'react'
 import CarouselBeef from './CarouselBeef';
 import CarouselPork from './CarouselPork';
 import CarouselGoat from './CarouselGoat';
+import Footer from './Footer';
 
 
 function Redmeat() {
@@ -53,7 +54,7 @@ function Redmeat() {
 
             </div>
         </div>
-
+        <Footer />
     </>
   )
 }

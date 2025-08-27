@@ -1,5 +1,3 @@
-import React from 'react'
-
 function ButtonGroup() {
   return (
         <div className="btn-group" role="group" aria-label="Basic example">

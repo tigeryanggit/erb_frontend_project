@@ -7,7 +7,7 @@ import { vegetable02 } from '../data';
 import { vegetable03 } from '../data';  
 import { vegetable04 } from '../data';  
 
-function Purchase() {
+function Season() {
   return (
     <>
 
@@ -77,4 +77,4 @@ function Purchase() {
   )
 }
 
-export default Purchase
+export default Season

@@ -1,10 +1,12 @@
 import React from 'react'
 import Footer from './Footer'
+import Shopping from './Shopping'
 
 function Vegetable() {
   return (
 
     <>
+    <Shopping />
     <header class="pt-24 pb-16 bg-gradient-to-br from-primary/90 to-primary text-white">
         <div class="container mx-auto px-4">
             <div class="flex flex-col md:flex-row items-center">

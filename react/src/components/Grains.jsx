@@ -1,10 +1,12 @@
 import React from 'react'
 import Footer from './Footer';
+import Shopping from './Shopping';
 
 function Grains() {
   return (
     
     <>
+    <Shopping />
     <header class="pt-24 pb-16 bg-gradient-to-br from-primary/90 to-primary text-white">
     {/* <header class="pt-24 pb-16 bg-gradient-to-br from-amber-700/90 to-amber-800 text-white"> */}
         <div class="container mx-auto px-4">
@@ -38,7 +40,7 @@ function Grains() {
 
                 <div class="bg-white rounded-xl shadow-md overflow-hidden card-hover">
                     <div class="h-56 overflow-hidden">
-                        <img src="https://picsum.photos/id/139/600/400" alt="燕麦" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110"/>
+                        <img src="https://images.unsplash.com/photo-1614373532018-92a75430a0da?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="燕麦" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110"/>
                     </div>
                     <div class="p-6">
                         <div class="flex items-center mb-3">
@@ -64,7 +66,7 @@ function Grains() {
 
                 <div class="bg-white rounded-xl shadow-md overflow-hidden card-hover">
                     <div class="h-56 overflow-hidden">
-                        <img src="https://picsum.photos/id/292/600/400" alt="糙米" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110"/>
+                        <img src="https://images.unsplash.com/photo-1613728913341-8f29b02b8253?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="糙米" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110"/>
                     </div>
                     <div class="p-6">
                         <div class="flex items-center mb-3">
@@ -90,7 +92,7 @@ function Grains() {
 
                 <div class="bg-white rounded-xl shadow-md overflow-hidden card-hover">
                     <div class="h-56 overflow-hidden">
-                        <img src="https://picsum.photos/id/493/600/400" alt="藜麦" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110"/>
+                        <img src="https://plus.unsplash.com/premium_photo-1671130295828-efd9019faee0?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="藜麦" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110"/>
                     </div>
                     <div class="p-6">
                         <div class="flex items-center mb-3">
@@ -142,7 +144,7 @@ function Grains() {
 
                 <div class="bg-white rounded-xl shadow-md overflow-hidden card-hover">
                     <div class="h-56 overflow-hidden">
-                        <img src="https://picsum.photos/id/133/600/400" alt="荞麦" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110"/>
+                        <img src="https://images.unsplash.com/photo-1613758235306-69cc0a3f614d?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="荞麦" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110"/>
                     </div>
                     <div class="p-6">
                         <div class="flex items-center mb-3">

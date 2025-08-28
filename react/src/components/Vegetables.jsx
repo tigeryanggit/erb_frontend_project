@@ -1,10 +1,11 @@
 import React from 'react'
 import Footer from './Footer';
+import Shopping from './Shopping';
 
 function Vegetables() {
   return (
     <>
-    
+        <Shopping /> 
         <header className="pt-24 pb-16 bg-gradient-to-br from-primary/90 to-primary text-white">
         <div className="container mx-auto px-4">
             <div className="flex flex-col md:flex-row items-center">
@@ -12,9 +13,9 @@ function Vegetables() {
                     <h1 className="text-[clamp(2rem,5vw,3.5rem)] font-bold mb-4 text-shadow">素類介紹</h1>
                     <p className="text-[clamp(1rem,2vw,1.25rem)] opacity-90">素食食材富含植物蛋白、纖維與礦物質，提供能量同時促進健康，是均衡飲食的重要一環。</p>
                 </div>
-                <div className="md:w-1/2">
-                    {/* <img src="" alt="各种素食蛋白食品" class="rounded-xl shadow-lg w-full max-w-lg mx-auto transform rotate-2 hover:rotate-0 transition-transform duration-300"/> */}
-                </div>
+                {/* <div className="md:w-1/2">
+                    <img src="" alt="各种素食蛋白食品" class="rounded-xl shadow-lg w-full max-w-lg mx-auto transform rotate-2 hover:rotate-0 transition-transform duration-300" alt="各种素食蛋白食品" class="rounded-xl shadow-lg w-full max-w-lg mx-auto transform rotate-2 hover:rotate-0 transition-transform duration-300"/>
+                </div> */}
             </div>
         </div>
     </header>

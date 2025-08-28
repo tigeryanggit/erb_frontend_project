@@ -2,12 +2,13 @@ import React from 'react'
 import Footer from './Footer';
 import IndexCard from './IndexCard';
 import { IndexIntro } from '../data';
-
+import Shopping from './Shopping';
 
 function Index() {
   return (
 
     <>
+    <Shopping />
     <header className="pt-24 pb-16 bg-gradient-to-br from-primary/90 to-primary text-white">
         <div className="container mx-auto px-4 text-center">
             <h1 className="text-[clamp(2rem,5vw,3.5rem)] font-bold mb-4 text-shadow">買菜</h1>

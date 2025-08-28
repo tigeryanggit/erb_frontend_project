@@ -593,6 +593,7 @@ a:hover {
     background-color: var(--primary-4);
     padding-right: 5px ;
     position: fixed;
+    cursor: pointer;
     /* top: 70vh; */
     bottom: var(--margin-nav);
     right: 0;

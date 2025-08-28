@@ -554,3 +554,41 @@ export const MenuMeat =[
         item: '海鮮'
     },
 ]
+
+
+export const IndexIntro =[
+    {
+        id:1,
+        image: 'https://d1d37e9z843vy6.cloudfront.net/jp/images/3604328/85f29bad75933793d9a7de8cb58a1c6ee289e582.jpeg',
+        title: '肉類',
+        text: '肉類富含優質蛋白質、鐵、鋅及維生素B群，能提供人體必需胺基酸，助於肌肉生長、修復組織與維持生理機能。'
+    },
+    {
+        id:2,
+        image: 'https://hips.hearstapps.com/hmg-prod/images/fruit-mix-royalty-free-image-1729839128.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        title: '水果',
+        text: '水果富含維生素、礦物質與膳食纖維，能促進消化、增強免疫力，為健康飲食的關鍵要素。'
+    },
+    {
+        id:3,
+        image: 'https://p6.itc.cn/q_70/images01/20211224/a58d004fee0243de9ff0381a201b34cb.jpeg',
+        title: '五谷',
+        text: '五穀富含碳水化合物、膳食纖維與維生素B群，提供能量、促進腸道健康，是日常飲食的基礎。'
+    },
+    {
+        id:4,
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6ohE31sQlhnmu8GqzaAk3AaYwmt7LBMmTAg&s',
+        title: '蔬菜',
+        text: '蔬菜富含維生素、礦物質及膳食纖維，助抗氧化、促消化，是維持健康不可或缺的優質食材。'
+    },
+
+]
+
+
+
+
+
+
+
+
+

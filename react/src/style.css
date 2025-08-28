@@ -29,7 +29,7 @@ body {
     --primary-white: white;
     --primary-black: black;
     --primary-1:#d8e2dc;
-    --primary-2:#ffe5d9;
+    --primary-2:#4CAF50;
     --primary-3:#ffcad4;
     --primary-4:#f4acb7;
     --primary-4:#9d8189;
@@ -40,6 +40,9 @@ body {
     --primary-9:#eaac8b;
     --border-test: 0px solid violet;
     --font-color: gray;
+    --font-color-12: #5c5c5c;
+    --font-color-3: #080132;
+    --font-color-4:#484848;
     --margin-nav:80px;
     --padding-right:20px;
     --shadow: 8px 5px 5px 0px darkgray;
@@ -330,16 +333,30 @@ a:hover {
         text-align: center;
     }
 
+    .col-md {
+        background-color: var(--primary-3);
+
+    }
     .card-body {
 
-        background-color: var(--primary-2);
+        background-color: var(--primary-3);
         padding-bottom: 0;
         margin-bottom: 0;
     }
 
 
+
+
 }
 
+
+.container-purchase .card-body,
+.container-purchase .col-md
+{
+        background-color: var(--primary-2);
+        padding-bottom: 0;
+        margin-bottom: 0;
+}
 
 
 .container-redmeat,
@@ -382,7 +399,7 @@ a:hover {
     }
 
     .card-title {
-        color: var(--primary-5);
+        color: var(--font-color-3);
         font-size: 1.5rem;
         font-weight:800;
     }
@@ -397,6 +414,7 @@ a:hover {
         /* width: 100%; */
         min-width: 200px;
         max-width: 300px;
+        margin: 0 auto;
 
     }
 
@@ -503,12 +521,12 @@ a:hover {
     }
 
     .card-body {
-        background-color: var(--primary-2);
+        background-color: var(--primary-3);
         width: 100%;
         padding: 20px;
         margin:0;
     h5 {
-        color: var(--primary-7);
+        color: var(--font-color-3);
     }
 
     }
@@ -518,7 +536,7 @@ a:hover {
     }
 
     .col-md-8 {
-    background-color:var(--primary-2);
+    background-color:var(--primary-3);
     
     }
 
@@ -578,7 +596,7 @@ a:hover {
     margin: 0 auto;
 
     h3 {
-        color: var(--primary-black);
+        color: var(--font-color-4);
         font-size: 2rem;
         font-weight: 800;
     }
@@ -636,3 +654,9 @@ a:hover {
 @keyframes blink {
     to { color:var(--primary-black); }
 }
+
+
+.card-meat .col-md {
+        background-color: var(--primary-3);
+
+    }

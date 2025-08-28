@@ -13,7 +13,7 @@ function Vegetable() {
                     <p class="text-[clamp(1rem,2vw,1.25rem)] opacity-90">蔬菜是均衡饮食的重要组成部分，富含维生素、矿物质、膳食纤维和抗氧化剂，对维持身体健康至关重要。每天摄入多种蔬菜有助于预防慢性疾病。</p>
                 </div>
                 <div class="md:w-1/2">
-                    <img src="https://picsum.photos/id/139/800/500" alt="各种新鲜蔬菜" class="rounded-xl shadow-lg w-full max-w-lg mx-auto transform rotate-2 hover:rotate-0 transition-transform duration-300"/>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6ohE31sQlhnmu8GqzaAk3AaYwmt7LBMmTAg&s" alt="各种新鲜蔬菜" class="rounded-xl shadow-lg w-full max-w-lg mx-auto transform rotate-2 hover:rotate-0 transition-transform duration-300"/>
                 </div>
             </div>
         </div>
@@ -23,12 +23,12 @@ function Vegetable() {
     <main class="py-16">
         <div class="container mx-auto px-4">
 
-            <section class="mb-16 bg-white rounded-2xl shadow-md p-6 md:p-8">
+            {/* <section class="mb-16 bg-white rounded-2xl shadow-md p-6 md:p-8">
                 <h2 class="text-2xl font-bold mb-6 text-center">蔬菜营养成分对比 (每100克)</h2>
                 <div class="h-80">
                     <canvas id="vegetableChart"></canvas>
                 </div>
-            </section>
+            </section> */}
             
 
             <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold text-center mb-12 text-dark">常见健康蔬菜</h2>

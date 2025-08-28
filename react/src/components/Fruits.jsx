@@ -1,11 +1,12 @@
 import React from 'react'
+import Footer from './Footer';
 
 function Fruits() {
   return (
 
     <>
     
-        <header class="pt-24 pb-16 bg-gradient-to-br from-secondary/90 to-secondary text-white">
+        <header class="pt-24 pb-16 bg-gradient-to-br from-primary/90 to-primary text-white">
         <div class="container mx-auto px-4">
             <div class="flex flex-col md:flex-row items-center">
                 <div class="md:w-1/2 mb-8 md:mb-0">
@@ -13,7 +14,7 @@ function Fruits() {
                     <p class="text-[clamp(1rem,2vw,1.25rem)] opacity-90">水果是维生素、矿物质和抗氧化剂的天然来源，富含膳食纤维，有助于维持身体健康。每天食用多种水果可以提供丰富的营养，促进整体健康。</p>
                 </div>
                 <div class="md:w-1/2">
-                    <img src="https://picsum.photos/id/1080/800/500" alt="各种新鲜水果" class="rounded-xl shadow-lg w-full max-w-lg mx-auto transform -rotate-2 hover:rotate-0 transition-transform duration-300"/>
+                    <img src="https://hips.hearstapps.com/hmg-prod/images/fruit-mix-royalty-free-image-1729839128.jpg?crop=1xw:1xh;center,top&resize=980:*" alt="各种新鲜水果" class="rounded-xl shadow-lg w-full max-w-lg mx-auto transform -rotate-2 hover:rotate-0 transition-transform duration-300"/>
                 </div>
             </div>
         </div>
@@ -23,12 +24,12 @@ function Fruits() {
     <main class="py-16">
         <div class="container mx-auto px-4">
 
-            <section class="mb-16 bg-white rounded-2xl shadow-md p-6 md:p-8">
+            {/* <section class="mb-16 bg-white rounded-2xl shadow-md p-6 md:p-8">
                 <h2 class="text-2xl font-bold mb-6 text-center">水果维生素C含量对比 (每100克)</h2>
                 <div class="h-80">
                     <canvas id="fruitChart"></canvas>
                 </div>
-            </section>
+            </section> */}
             
 
             <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold text-center mb-12 text-dark">营养丰富的水果</h2>
@@ -193,8 +194,7 @@ function Fruits() {
             </div>
         </div>
     </main>
-
-   
+    <Footer /> 
     
     </>
 

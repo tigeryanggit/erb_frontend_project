@@ -1,11 +1,12 @@
 import React from 'react'
+import Footer from './Footer';
 
 function Grains() {
   return (
     
     <>
-
-    <header class="pt-24 pb-16 bg-gradient-to-br from-amber-700/90 to-amber-800 text-white">
+    <header class="pt-24 pb-16 bg-gradient-to-br from-primary/90 to-primary text-white">
+    {/* <header class="pt-24 pb-16 bg-gradient-to-br from-amber-700/90 to-amber-800 text-white"> */}
         <div class="container mx-auto px-4">
             <div class="flex flex-col md:flex-row items-center">
                 <div class="md:w-1/2 mb-8 md:mb-0">
@@ -13,7 +14,7 @@ function Grains() {
                     <p class="text-[clamp(1rem,2vw,1.25rem)] opacity-90">五谷是指五种谷物，是人类饮食的基础，提供能量和多种重要营养素。全谷物保留了麸皮、胚芽和胚乳，比精制谷物含有更多的纤维、维生素和矿物质。</p>
                 </div>
                 <div class="md:w-1/2">
-                    <img src="https://picsum.photos/id/292/800/500" alt="各种五谷杂粮" class="rounded-xl shadow-lg w-full max-w-lg mx-auto transform rotate-2 hover:rotate-0 transition-transform duration-300"/>
+                    <img src="https://p6.itc.cn/q_70/images01/20211224/a58d004fee0243de9ff0381a201b34cb.jpeg" alt="各种五谷杂粮" class="rounded-xl shadow-lg w-full max-w-lg mx-auto transform rotate-2 hover:rotate-0 transition-transform duration-300"/>
                 </div>
             </div>
         </div>
@@ -23,12 +24,12 @@ function Grains() {
     <main class="py-16">
         <div class="container mx-auto px-4">
 
-            <section class="mb-16 bg-white rounded-2xl shadow-md p-6 md:p-8">
+            {/* <section class="mb-16 bg-white rounded-2xl shadow-md p-6 md:p-8">
                 <h2 class="text-2xl font-bold mb-6 text-center">五谷膳食纤维含量对比 (每100克熟重)</h2>
                 <div class="h-80">
                     <canvas id="grainChart"></canvas>
                 </div>
-            </section>
+            </section> */}
             
 
             <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold text-center mb-12 text-dark">营养丰富的五谷</h2>
@@ -193,7 +194,7 @@ function Grains() {
             </div>
         </div>
     </main>
-
+    <Footer />
     
     
     </>

@@ -10,10 +10,14 @@ function Redmeat() {
   return (
     <>
         <Shopping />
-        <div className="container-redmeat">
+
+        <div className="container-header back-redmeat">
                 <h2>紅肉</h2>
                 <br />
                 <p>紅肉主要是指來自哺乳類動物的肌肉，其特點是肉中含有較高濃度的「肌紅蛋白」，這是一種負責在肌肉中儲存氧氣的蛋白質。肌紅蛋白與氧氣結合時呈現紅色，因此這類生肉看起來是紅色的，煮熟後則會變為褐色。</p>
+        </div>
+
+        <div className="container-redmeat">
 
             <div class="card text-bg-light mb-3">
 

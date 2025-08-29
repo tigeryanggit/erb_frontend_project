@@ -8,10 +8,14 @@ function Whitemeat() {
   return (
    <>
         <Shopping />
-        <div className="container-whitemeat">
+
+        <div className="container-header back-whitemeat">
                 <h2>白肉</h2>
                 <br />
                 <p>白肉是一個廣義的分類，通常指烹飪前顏色較淺、烹飪後通常呈白色的肉類。與紅肉相比，白肉的最大特點是肌肉纖維中的「肌紅蛋白」含量較低。肌紅蛋白是一種儲存氧氣的蛋白質，含量越低，肉的顏色就越淺。</p>
+        </div>
+
+        <div className="container-whitemeat">
 
             <div class="card text-bg-light mb-3">
 

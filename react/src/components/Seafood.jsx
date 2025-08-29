@@ -8,10 +8,17 @@ function Seafood() {
   return (
    <>
         <Shopping />
-        <div className="container-whitemeat">
+        
+        <div className="container-header back-seafood">
                 <h2>海鮮</h2>
                 <br />
                 <p>海鮮泛指所有供人類食用的海洋生物，主要分為兩大類：魚類 和 貝類（包括甲殼類和軟體動物）。一般來說，海鮮的價錢相對較貴，經常出現於飲宴之中。</p>
+
+        </div>
+
+
+        <div className="container-whitemeat">
+
 
             <div class="card text-bg-light mb-3">
 

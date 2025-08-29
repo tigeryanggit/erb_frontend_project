@@ -7,7 +7,7 @@ function Vegetable() {
 
     <>
     <Shopping />
-    <header class="pt-24 pb-16 bg-gradient-to-br from-primary/90 to-primary text-white">
+    {/* <header class="pt-24 pb-16 bg-gradient-to-br from-primary/90 to-primary text-white">
         <div class="container mx-auto px-4">
             <div class="flex flex-col md:flex-row items-center">
                 <div class="md:w-1/2 mb-8 md:mb-0">
@@ -19,8 +19,12 @@ function Vegetable() {
                 </div>
             </div>
         </div>
-    </header>
-
+    </header> */}
+    <div className="container-header back-vegetable">
+            <h2>新鲜蔬菜</h2>
+            <br />
+            <p>蔬菜是均衡饮食的重要组成部分，富含维生素、矿物质、膳食纤维和抗氧化剂，对维持身体健康至关重要。每天摄入多种蔬菜有助于预防慢性疾病。</p>
+    </div>
 
     <main class="py-16">
         <div class="container mx-auto px-4">

@@ -9,13 +9,20 @@ function Index() {
 
     <>
     <Shopping />
-    <header className="pt-24 pb-16 bg-gradient-to-br from-primary/90 to-primary text-white">
+    {/* <header className="pt-24 pb-16 bg-gradient-to-br from-primary/90 to-primary text-white">
         <div className="container mx-auto px-4 text-center">
             <h1 className="text-[clamp(2rem,5vw,3.5rem)] font-bold mb-4 text-shadow">買菜</h1>
             <p className="text-[clamp(1rem,2vw,1.25rem)] max-w-2xl mx-auto opacity-90">從最基本的層面看，食物是維持生命的必需品。人體如精巧的熔爐，須不斷添柴加火，方能持續運轉。五穀雜糧，蔬果肉禽，經烹煮調製，化為滋養軀體的養分。沒有食物的供給，再強健的體魄也會日漸枯萎。</p>
             <p className="text-[clamp(1rem,2vw,1.25rem)] max-w-2xl mx-auto opacity-90">但食物從何來呢？一日三餐的餸菜從何來呢？本網站會為大家提供相關的資訊，由何處買菜,認識相關食物的知識及烹調的方法,我們也會為你一一介紹。 </p>
         </div>
-    </header>
+    </header> */}
+        <div className="container-header back-index">
+                <h2>買菜</h2>
+                <br />
+                <p>從最基本的層面看，食物是維持生命的必需品。人體如精巧的熔爐，須不斷添柴加火，方能持續運轉。五穀雜糧，蔬果肉禽，經烹煮調製，化為滋養軀體的養分。沒有食物的供給，再強健的體魄也會日漸枯萎。</p>
+                <p>但食物從何來呢？一日三餐的餸菜從何來呢？本網站會為大家提供相關的資訊，由何處買菜,認識相關食物的知識及烹調的方法,我們也會為你一一介紹。</p>
+        </div>
+
 
 
     <main className="py-16">

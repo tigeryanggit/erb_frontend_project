@@ -297,7 +297,7 @@ a:hover {
     /* padding-top: var(--margin-nav); */
     /* color: var(--primary-black); */
 
-    padding: var(--margin-nav) 20px var(--margin-nav) 20px;
+    padding: 0 20px var(--margin-nav) 20px;
     max-width: var(--max-width);
     margin: 0 auto;
     position: relative;
@@ -344,10 +344,11 @@ a:hover {
         margin-bottom: 0;
     }
 
-
-
-
 }
+.container-purchase {
+    padding-top: var(--margin-nav);
+}
+
 
 
 .container-purchase .card-body,
@@ -365,10 +366,38 @@ a:hover {
 
 {
 
-    max-width: 600px;
+    max-width: var(--max-width);
 
 }
 
+.container-redmeat {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: stretch;
+
+}
+
+.container-whitemeat {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items: stretch;
+    .card {
+        max-width: 400px;
+    }
+
+}
+
+.container-seafood {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items: stretch;
+    .card {
+        max-width: 400px;
+    }
+}
 
 
 .card {
@@ -505,6 +534,21 @@ a:hover {
     .adv {
         display: none;
     }
+
+    .container-redmeat {
+        grid-template-columns: 1fr;
+        max-width: 500px;
+    }
+
+    .container-whitemeat {
+        grid-template-columns: 1fr;
+        max-width: 500px;
+    }
+
+    .container-seafood {
+        grid-template-columns: 1fr;
+        max-width: 500px;
+    }
 }
 
 
@@ -597,7 +641,7 @@ a:hover {
 
     h3 {
         color: var(--font-color-4);
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-weight: 800;
     }
     img {
@@ -657,6 +701,80 @@ a:hover {
 
 
 .card-meat .col-md {
-        background-color: var(--primary-3);
+    background-color: var(--primary-3);
+
+}
+
+
+.container {
+    padding-top: var(--margin-nav);
+}
+
+.container-header {
+    padding: var(--margin-nav) 20px var(--margin-nav) 20px;
+    width:100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    margin: 0 auto;
+
+
+
+    h2 {
+        padding-top: var(--margin-nav);
+
+        font-weight: 600;
+        font-size: 3rem;
+        text-align: center;
+        color: var(--primary-white);
+        margin: 0 auto;
 
     }
+
+    h3 {
+        padding-top: var(--margin-nav);
+        font-weight: 600;
+        font-size: 1.8rem;
+        text-align: center;
+        color: var(--primary-5)
+    }
+
+    >p {
+        max-width: var(--max-width);
+        font-size: 1.2rem;
+        text-align: center;
+        color: var(--primary-white);
+        margin: 0 auto;
+    }
+}
+
+.back-index
+{
+    background-color: var(--primary-6) ;
+}
+
+.back-whitemeat,
+.back-redmeat,
+.back-seafood,
+.back-meat
+{
+    background-color: var(--primary-7) ;
+}
+
+.back-grains,
+.back-fruits,
+.back-vegetable,
+.back-vegetables
+{
+    background-color: var(--primary-2) ;
+}
+
+
+
+
+
+
+
+.purchase-head {
+    font-size: 3rem;
+}

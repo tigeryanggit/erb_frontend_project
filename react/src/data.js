@@ -586,6 +586,67 @@ export const IndexIntro =[
 
 
 
+export const fruitcard =[
+    {
+        id:1,
+        image: 'https://images.unsplash.com/photo-1603833665858-e61d17a86224?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        title: '香蕉',
+        text: '香蕉是世界上最受欢迎的水果之一，富含能量，易于携带，是运动前后的理想零食。它们的成熟度不同，味道和质地也有所不同。',
+        text1: '钾: 358毫克 (7% 每日需求量)',
+        text2: '维生素B6: 0.4毫克 (22% 每日需求量)',
+        text3: '膳食纤维: 2.6克',
+        text4: '卡路里: 89',
+        text5: '健康益处: 维持正常血压，提供快速能量，支持消化系统健康，有助于肌肉功能。'
+    },
+    {
+        id:2,
+        image: 'https://plus.unsplash.com/premium_photo-1667049292983-d2524dd0ef08?q=80&w=1698&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        title: '苹果',
+        text: '苹果是最广泛种植的水果之一，有许多品种，从甜到酸不等。"一天一苹果，医生远离我"这句谚语反映了它的健康价值。',
+        text1: '维生素C: 4.6毫克 (5% 每日需求量)',
+        text2: '膳食纤维: 2.4克 (主要在果皮中)',
+        text3: '卡路里: 52',
+        text4: '富含抗氧化剂和植物化合物',
+        text5: '健康益处: 降低心脏病风险，帮助体重管理，支持肠道健康，具有抗炎特性。'
+    },
+        {
+        id:3,
+        image: 'https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        title: '橙子',
+        text: '橙子是柑橘类水果的代表，以其甜美多汁的果肉和丰富的维生素C而闻名。它们通常在冬季成熟，是寒冷季节的营养佳品。',
+        text1: '维生素C: 53.2毫克 (59% 每日需求量)',
+        text2: '膳食纤维: 2.4克',
+        text3: '卡路里: 47',
+        text4: '富含类黄酮和抗氧化剂',
+        text5: '健康益处: 增强免疫系统，促进胶原蛋白生成，改善铁吸收，支持心脏健康。'
+    },
+        {
+        id:4,
+        image: 'https://images.unsplash.com/photo-1587393855524-087f83d95bc9?q=80&w=920&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        title: '草莓',
+        text: '草莓是一种受欢迎的浆果，具有鲜艳的红色、独特的心形和甜美的味道。它们实际上不是浆果，而是聚合果，每个"种子"都是一个单独的果实。',
+        text1: '维生素C: 58.8毫克 (65% 每日需求量)',
+        text2: '膳食纤维: 2克',
+        text3: '卡路里: 32',
+        text4: '富含锰和抗氧化剂',
+        text5: '健康益处: 减少炎症，改善心脏健康，有助于血糖管理，促进皮肤健康。'
+    },
+        {
+        id:5,
+        image: 'https://images.unsplash.com/photo-1594002348772-bc0cb57ade8b?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        title: '蓝莓',
+        text: '蓝莓是一种小型浆果，呈深蓝色，味道酸甜可口。它们被认为是"超级食物"之一，因为其极高的抗氧化剂含量。',
+        text1: '维生素C: 9.7毫克 (11% 每日需求量)',
+        text2: '膳食纤维: 2.4克',
+        text3: '卡路里: 57',
+        text4: '含花青素和其他抗氧化剂',
+        text5: '健康益处: 改善心脏健康，增强记忆力，减少炎症，保护眼睛健康。'
+    },
+
+
+]
+
+
 
 
 

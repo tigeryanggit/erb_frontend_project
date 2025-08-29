@@ -7,8 +7,7 @@ function Grains() {
     
     <>
     <Shopping />
-    <header class="pt-24 pb-16 bg-gradient-to-br from-primary/90 to-primary text-white">
-    {/* <header class="pt-24 pb-16 bg-gradient-to-br from-amber-700/90 to-amber-800 text-white"> */}
+    {/* <header class="pt-24 pb-16 bg-gradient-to-br from-primary/90 to-primary text-white">
         <div class="container mx-auto px-4">
             <div class="flex flex-col md:flex-row items-center">
                 <div class="md:w-1/2 mb-8 md:mb-0">
@@ -20,7 +19,12 @@ function Grains() {
                 </div>
             </div>
         </div>
-    </header>
+    </header> */}
+    <div className="container-header back-fruits">
+            <h2>五谷</h2>
+            <br />
+            <p>五谷是指五种谷物，是人类饮食的基础，提供能量和多种重要营养素。全谷物保留了麸皮、胚芽和胚乳，比精制谷物含有更多的纤维、维生素和矿物质。</p>
+    </div>
 
 
     <main class="py-16">

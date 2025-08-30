@@ -33,6 +33,7 @@ body {
     flex-direction: row;
     background-color:lightcyan;
     height: var(--margin-nav);
+    position: relative;
 
 }
 
@@ -91,6 +92,7 @@ body {
 
 .mobile-items {
     border: var(--border-test);
+    margin-top: var(--margin-nav);
     width: 8rem;    
     height: 18rem;
     position: absolute;

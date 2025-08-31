@@ -14,7 +14,7 @@ body {
     font-family: "Noto Sans", sans-serif;
     font-size: 16px;
     word-spacing: 5px;
-    position: relative;
+    /* position: relative; */
     background-image: url(./assets/background.png);
     /* background-position: fixed; */
     background-repeat: no-repeat;
@@ -29,28 +29,32 @@ body {
     --primary-white: white;
     --primary-black: black;
     --primary-1:#d8e2dc;
-    --primary-2:#4CAF50;
+    --primary-2:#4caf50;
     --primary-3:#ffcad4;
-    --primary-4:#f4acb7;
-    --primary-4:#9d8189;
+    --primary-4:#add8e6;
     --primary-5:#355070;
     --primary-6:#6d597a;
     --primary-7:#b56576;
     --primary-8:#e56b6f;
     --primary-9:#eaac8b;
-    --border-test: 0px solid violet;
-    --font-color: gray;
+    --background: #f1f1f1 ;
+    --background-1: gray;
+    --border-test: 0px solid red;
     --font-color-12: #5c5c5c;
     --font-color-3: #080132;
-    --font-color-4:#484848;
+    --font-color-4: #5A4790;
+    --font-color-9-1: #322653;
+    --font-color-9-2:#B930BD;
     --margin-nav:80px;
     --padding-right:20px;
     --shadow: 8px 5px 5px 0px darkgray;
     --max-width: 1100px;
     --border-radius: 10px; 
-
+    --spacing: 0.25rem;
+    --radius: 0.5rem;
 
 }
+
 
 li {
         list-style-type: none;
@@ -63,6 +67,40 @@ a {
 a:hover {
         text-decoration: none;
 }
+
+/* set the defult font style */
+h1,h2,h3,h4{
+    letter-spacing: 0.5rem;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+    margin-top: 0;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+    padding: 40px;
+    text-align: center;
+}
+
+h3{
+    font-size: 1.25rem;
+    letter-spacing: 0.5rem;
+}
+
+h4{
+    font-size: 0.875rem;
+    letter-spacing: 0.15rem;
+}
+
+p{
+    margin-bottom: 1.25rem;
+}
+
+
 
 .container-nav {
     border: var(--border-test);
@@ -594,46 +632,6 @@ a:hover {
 }
 
 
-.about {
-
-    border: var(--border-test);
-    width:100%;    
-    padding: 0 20px 20px 20px;
-    height: calc(100vh - var(--margin-nav));
-    max-width: 700px;
-    min-width: 400px;
-    margin: var(--margin-nav) auto 0 auto;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items:start;
-    font-size: 1.2rem;
-
-    iframe {
-            box-shadow: var(--shadow);
-    }
-
-    p {
-        padding: 0 2rem;
-        line-height: 1rem;
-    }
-
-    span {
-        font-weight: 600;
-    }
-
-    .map {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 2rem;
-        width: 100%;
-        height: 400px;
-        margin: 20px 0;
-    }
-}
-
 .container-carousel {
     border: var(--border-test);
     /* padding: 20px;     */
@@ -648,7 +646,9 @@ a:hover {
     max-width: 100%; /* Ensures the image never exceeds its parent container's width */
     height: auto;    /* Maintains the original aspect ratio by adjusting height proportionally */
     }
+
 }
+
 
 .adv {
     
@@ -810,6 +810,7 @@ a:hover {
 
     ul{
         display: flex;
+        display: column;
         justify-content: space-evenly;
         align-items: center;
     }
@@ -841,6 +842,43 @@ a:hover {
     height: 450px;
 }
 
+.map ul{
+        flex-direction: column;
+        align-items: stretch;
+        li{
+            padding: 0.5rem;
+            width:100%;
+        }
+}
+.map-body {
+        padding: 0;
+        iflame{
+        width: 100%;
+        }
+}
+    
+.address{
+        /* display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; */
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 80%;        
+        /* align-items: stretch; */
+        padding-top: 1rem;
+
+
+    h2 {
+        width: 100%;
+    }
+}
+
+
+
+
+.card-content {
+    height: 40rem,
+}
 
 .address{
 
@@ -882,6 +920,7 @@ a:hover {
 
 .about{
     background-color: var(--primary-2);
+    font-family: "Noto Sans", sans-serif;
     color: var(--font-color-12);
     /* text-align: left; */
     display: flex;
@@ -892,24 +931,34 @@ a:hover {
     padding: 5rem 3rem;
     border-radius: 2.5rem;
     
+    h2 {
+
+        font-family: "Noto Sans", sans-serif;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 8px;
+        line-height: 40px;
+        padding: 40px;
+
+    }
+
     p {
         margin: 1rem;
+        font-size: 1rem;
+        text-align: center;
     }
-}
-
-
 
     form {
-    margin: 1.25rem;
+    margin: 1rem;
     }
 
     .form-group {
     margin: 1.5rem 0px;
-
+    
 
     }
     input {
-    max-width: 657px;
+    margin: 1rem;
     width: 100%;
     height: 5rem;
     padding: 1rem 0;
@@ -927,14 +976,11 @@ a:hover {
     color: var(--primary-white);
     border: 0px;
     font-size: 1rem;
+    }
+
 }
 
-@media (max-width: 1099px) {
-    .about{
-        text-align: center;
-        padding: 5rem 3rem;
-    }
-}
+
 
 /* cooking */
 

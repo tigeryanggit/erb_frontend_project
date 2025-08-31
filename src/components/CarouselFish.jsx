@@ -1,6 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import CarouselImage from './CarouselImage';
 import { fish } from '../data';
+import { getImageURL } from '../image-util';
 
 
 function CarouselFish() {
@@ -11,7 +12,7 @@ function CarouselFish() {
                 {
                     fish.map((img)=>(
                         <Carousel.Item >
-                        <CarouselImage key={img.id} image={img.image} alt={img.alt} text={img.id}  />
+                        <CarouselImage key={img.id} image={getImageURL(img.image,'./assets/fish/')} alt={img.alt} text={img.id}  />
                         <Carousel.Caption>
                         <h3>{img.alt}</h3>
                         <p></p>

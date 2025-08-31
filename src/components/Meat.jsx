@@ -3,6 +3,7 @@ import Cardmeat from './Cardmeat';
 import {cardmeat} from '../data';
 import Footer from './Footer';
 import Shopping from './Shopping';
+import { getImageURL } from '../image-util';
 
 
 function Meat() {
@@ -23,7 +24,7 @@ function Meat() {
             {
                 cardmeat.map((card)=>(
 
-                    <Cardmeat key={card.id} image={card.image} title={card.title} alt={card.alt} text={card.text} link={card.link} />
+                    <Cardmeat key={card.id} image={getImageURL(card.image,'./assets/')} title={card.title} alt={card.alt} text={card.text} link={card.link} />
                 )
 
                 )

@@ -15,11 +15,21 @@ import DropdownMeat from './DropdownMeat';
 import DropdownVegetables from './DropdownVegetables';
 import DropdownMap from './DropdownMap';
 import DropdownPurchase from './DropdownPurchase';
+import DropdownRecipe from './DropdownRecipe';
 import Index from './Index';
+import HotMeal from './HotMeal';
+import ColdMeal from './ColdMeal';
 import Vegetable from './Vegetable';
 import Vegetables from './Vegetables';
 import Fruits from './Fruits';
 import Grains from './Grains';
+import Recipe from './Recipe';
+import Map from './Map';
+
+
+// import HotMeal from './HotMeal';
+// import ColdMeal from './ColdMeal';
+// import HotMeal from './HotMeal';
 
 
 
@@ -54,10 +64,13 @@ const Navbar = () => {
                         <li><Link to="/">首頁</Link></li>
                         <li><Link to="/map">街巿地圖</Link></li>
                         <li><Link to="/purchase">時令蔬菜</Link></li>
+                        {/* <li><Link to="/hotmeal">Hot</Link></li>
+                        <li><Link to="/coldmeal">Cold</Link></li> */}
                         <li><DropdownMeat /></li>
                         <li><DropdownVegetables/></li>
-                        <li><Link to="/recipe">食譜簡介</Link></li>
+                        <li><DropdownRecipe/></li>
                         <li><Link to="/about">關於</Link></li>
+
                         
                         
                     </ul>
@@ -100,6 +113,12 @@ const Navbar = () => {
             <Route path="/grains" element={<Grains />} />
             <Route path="/vegetable" element={<Vegetable />} />
             <Route path="/about" element={<About />} />
+            <Route path="/recipe" element={<Recipe />} />
+            <Route path="/map" element={<Map />} />
+            <Route path="/hotmeal" element={<HotMeal />} />
+            <Route path="/coldmeal" element={<ColdMeal />} />
+            {/* <Route path="/coldmeal" element={<ColdMeal />} /> */}
+
             {/* <Route path="/contact" element={<Contact />} /> */}
             {/* Add footer */}
             {/* <Footer /> */}

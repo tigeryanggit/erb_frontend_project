@@ -1,8 +1,13 @@
 import React from 'react'
+import Footer from './Footer';
+import Shopping from './Shopping';
 
 function About() {
   return (
+  <>
+    <Shopping />
     <main>
+
       <section class="about">
         <article class="aboutc">
           <h2>About</h2>
@@ -23,6 +28,8 @@ function About() {
         </form>
       </section>
     </main>
+    <Footer />
+  </>
   )
 }
 

@@ -7,6 +7,8 @@ import { vegetable01 } from '../data';
 import { vegetable02 } from '../data';  
 import { vegetable03 } from '../data';  
 import { vegetable04 } from '../data';  
+import { getImageURL } from '../image-util';
+
 
 function Season() {
   return (
@@ -25,7 +27,7 @@ function Season() {
 
           {vegetable01.map((card)=>(
 
-            <CardSample key={card.id} image={card.image} title={card.title} text={card.text} price={card.price} />
+            <CardSample key={card.id} image={getImageURL(card.image,'./assets/picture/')} title={card.title} text={card.text} price={card.price} />
           )
           )}
 
@@ -39,7 +41,7 @@ function Season() {
 
           {vegetable02.map((card)=>(
 
-            <CardSample key={card.id} image={card.image} title={card.title} text={card.text} price={card.price} />
+            <CardSample key={card.id} image={getImageURL(card.image,'./assets/picture/')} title={card.title} text={card.text} price={card.price} />
           )
           )}
 
@@ -53,7 +55,7 @@ function Season() {
 
           {vegetable03.map((card)=>(
 
-            <CardSample key={card.id} image={card.image} title={card.title} text={card.text} price={card.price} />
+            <CardSample key={card.id} image={getImageURL(card.image,'./assets/picture/')} title={card.title} text={card.text} price={card.price} />
           )
           )}
 
@@ -67,7 +69,7 @@ function Season() {
 
           {vegetable04.map((card)=>(
 
-            <CardSample key={card.id} image={card.image} title={card.title} text={card.text} price={card.price} />
+            <CardSample key={card.id} image={getImageURL(card.image,'./assets/picture/')} title={card.title} text={card.text} price={card.price} />
           )
           )}
 

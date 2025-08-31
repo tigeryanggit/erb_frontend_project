@@ -24,6 +24,7 @@ import Vegetables from './Vegetables';
 import Fruits from './Fruits';
 import Grains from './Grains';
 import Recipe from './Recipe';
+import Recipes from './Recipes';
 import Map from './Map';
 
 
@@ -113,7 +114,7 @@ const Navbar = () => {
             <Route path="/grains" element={<Grains />} />
             <Route path="/vegetable" element={<Vegetable />} />
             <Route path="/about" element={<About />} />
-            <Route path="/recipe" element={<Recipe />} />
+            <Route path="/recipe" element={<Recipes />} />
             <Route path="/map" element={<Map />} />
             <Route path="/hotmeal" element={<HotMeal />} />
             <Route path="/coldmeal" element={<ColdMeal />} />

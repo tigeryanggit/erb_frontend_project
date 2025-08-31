@@ -1,16 +1,13 @@
-import React from 'react'
-
 import salt from '../assets/recipe/salt.jpg';
 import salad from '../assets/recipe/salad.jpg';
 import pot from '../assets/recipe/pot.jpg';
 import wash from "../assets/recipe/cleaver.jpg";
 import cleaver from "../assets/recipe/cleaver.jpg";
+import React from 'react'
 
 
 
-
-
-const Recipe = () => {
+function Recipes() {
     return (
 <>
   <section className="cookinfo dhead">
@@ -65,4 +62,4 @@ const Recipe = () => {
     )
 }
 
-export default Recipe;
+export default Recipes;

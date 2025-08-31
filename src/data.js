@@ -704,55 +704,63 @@ export const cold = [
  {
     id:1,
     image: '地中海蔬菜沙拉.jpg',
+    // image: '地中海蔬菜沙拉.jpg',
     name: "地中海蔬菜沙拉",
     cookingTime: "15分鐘",
     ingredients: ["羅馬生菜", "櫻桃番茄", "黃瓜", "紅洋蔥", "希臘橄欖", "羊乳酪", "橄欖油", "檸檬汁"]
  },
  {
     id:2,
-    image: '煙燻鮭魚捲.jpeg',
+    image: '煙燻鮭魚捲.jpg',
+    // image: '煙燻鮭魚捲.jpeg',
     name: "煙燻鮭魚捲",
     cookingTime: "20分鐘",
     ingredients: ["煙燻鮭魚片", "奶油乳酪", "小黃瓜條", "香蔥", "全麥捲餅", "黑胡椒", "檸檬汁"]
  },
  {
     id:3,    
-    image: '墨西哥雞肉冷捲.jpeg',
+    image: '墨西哥雞肉冷捲.jpg',
+    // image: '墨西哥雞肉冷捲.jpeg',
     name: "墨西哥雞肉冷捲",
     cookingTime: "25分鐘",
     ingredients: ["熟雞胸肉", "酪梨", "紫甘藍絲", "玉米粒", "酸奶油", "墨西哥捲餅", "孜然粉"]
  },
  {
     id:4,
-    image: '馬鈴薯雞蛋沙拉.jpeg',
+    image: '馬鈴薯雞蛋沙拉.jpg',
+    // image: '馬鈴薯雞蛋沙拉.jpeg',
     name: "馬鈴薯雞蛋沙拉",
     cookingTime: "30分鐘",
     ingredients: ["馬鈴薯", "蛋", "培根", "酸黃瓜", "蛋黃醬", "黑胡椒", "歐芹碎"]
  },
  {
     id:4,
-    image: '泰式青木瓜沙拉.jpeg',
+    image: '泰式青木瓜沙拉.jpg',
+    // image: '泰式青木瓜沙拉.jpeg',
     name: "泰式青木瓜沙拉",
     cookingTime: "18分鐘",
     ingredients: ["青木瓜", "紅蘿蔔", "小番茄", "花生碎", "蝦米", "魚露", "檸檬汁", "小米辣"]
  },
  {
     id:6,
-    image: '義式冷切拼盤.jpeg',
+    image: '義式冷切拼盤.jpg',
+    // image: '義式冷切拼盤.jpeg',
     name: "義式冷切拼盤",
     cookingTime: "10分鐘",
     ingredients: ["帕瑪火腿", "薩拉米", "摩泰台拉香腸", "法國長棍", "無花果", "蜂蜜", "芝麻菜"]
  },
  {
     id:7,
-    image: '越南春捲.jpeg',
+    image: '越南春捲.jpg',
+    // image: '越南春捲.jpeg',
     name: "越南春捲",
     cookingTime: "22分鐘",
     ingredients: ["米紙", "蝦仁", "豬肉絲", "米粉", "生菜", "薄荷葉", "魚露沾醬"]
  },
  {
     id:8,
-    image: '藜麥水果沙拉.jpeg',
+    image: '藜麥水果沙拉.jpg',
+    // image: '藜麥水果沙拉.jpeg',
     name: "藜麥水果沙拉",
     cookingTime: "12分鐘",
     ingredients: ["藜麥", "草莓", "藍莓", "酪梨", "杏仁片", "希臘優格", "蜂蜜"]
@@ -765,55 +773,63 @@ export const cold = [
 export const hot = [
  {
     id: 1,
-    image: '番茄燉牛腩.jpeg',
+    image: '番茄燉牛腩.jpg',
+    // image: '番茄燉牛腩.jpeg',
     name: "番茄燉牛腩",
     cookingTime: "90分鐘",
     ingredients: ["牛腩", "番茄", "洋蔥", "紅蘿蔔", "薑片", "八角", "香葉", "生抽", "冰糖"]
  },
  {
     id:2,
-    image: '宮保雞丁.jpeg',
+    image: '宮保雞丁.jpg',
+    // image: '宮保雞丁.jpeg',
     name: "宮保雞丁",
     cookingTime: "30分鐘",
     ingredients: ["雞胸肉", "花生米", "小黃瓜", "紅蘿蔔", "乾辣椒", "花椒", "料酒", "生抽", "醋", "白糖"]
  },
  {  id:3,
     image: '黑椒牛柳義面.jpg',
+    // image: '黑椒牛柳義面.jpg',
     name: "黑椒牛柳義面",
     cookingTime: "25分鐘",
     ingredients: ["義大利麵", "牛裡肌肉", "黑胡椒", "洋蔥", "彩椒", "蒜末", "奶油", "生抽", "蠔油", "水澱粉"]
  },
  {
     id:4,
-    image: '北菇雞飯.jpeg',
+    image: '北菇雞飯.jpg',
+    // image: '北菇雞飯.jpeg',
     name: "北菇雞飯",
     cookingTime: "40分鐘",
     ingredients: ["雞腿肉", "乾香菇", "薑", "蔥花", "米", "生抽", "老抽", "蠔油", "料酒", "鹽"]
  },
  {
     id:5,
-    image: '酸辣薯仔絲.jpeg',
+    image: '酸辣薯仔絲.jpg',
+    // image: '酸辣薯仔絲.jpeg',
     name: "酸辣薯仔絲",
     cookingTime: "15分鐘",
     ingredients: ["馬鈴薯", "乾辣椒", "花椒", "醋", "鹽", "蔥花", "蒜末", "食用油"]
  },
  {
     id:6,
-    image: '法式香煎三文魚.webp',
+    image: '法式香煎三文魚.jpg',
+    // image: '法式香煎三文魚.webp',
     name: "法式香煎三文魚",
     cookingTime: "18分鐘",
     ingredients: ["鮭魚排", "檸檬", "迷迭香", "奶油", "黑胡椒", "鹽", "蘆筍", "小番茄"]
  },
  {
     id:7,
-    image: '麻婆豆腐.jpeg',
+    image: '麻婆豆腐.jpg',
+    // image: '麻婆豆腐.jpeg',
     name: "麻婆豆腐",
     cookingTime: "20分鐘",
     ingredients: ["嫩豆腐", "豬肉末", "郫縣豆瓣醬", "乾辣椒麵", "花椒麵", "蒜末", "蔥花", "生抽", "水澱粉"]
  },
  {
     id:8,
-    image: '羅宋湯.webp',
+    image: '羅宋湯.jpg',
+    // image: '羅宋湯.webp',
     name: "羅宋湯",
     cookingTime: "60分鐘",
     ingredients: ["牛肉", "高麗菜", "番茄", "馬鈴薯", "洋蔥", "紅蘿蔔", "番茄醬", "奶油", "黑胡椒", "鹽"]

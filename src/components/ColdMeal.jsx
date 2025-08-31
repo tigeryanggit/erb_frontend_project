@@ -27,7 +27,7 @@ const ColdMeal = () => {
 
                   <CardMealCold 
                     key={meal.id} 
-                    image={getImageURL(meal.image,'../assets/hot/')} 
+                    image={getImageURL(meal.image,'./assets/cold/')} 
                     title={meal.name} 
                     cookingtime={meal.cookingTime} 
                     ingredient={

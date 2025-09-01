@@ -842,17 +842,24 @@ p{
     height: 450px;
 }
 
-.map ul{
-        flex-direction: column;
+.map>ul{
+        flex-direction: row;
         align-items: stretch;
         li{
             padding: 0.5rem;
             width:100%;
         }
 }
+
+.container-address ul{
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+
+}
 .map-body {
         padding: 0;
-        iflame{
+        iflame {
         width: 100%;
         }
 }
@@ -895,7 +902,8 @@ p{
 @media (max-width: 1099px) {
     .map ul{
         flex-direction: column;
-        align-items: stretch;
+        align-items: center;
+        justify-content: start;
         li{
             padding: 0.5rem;
         }
@@ -1000,7 +1008,7 @@ p{
 .cookinfo.dhead{
     opacity: 1;
     /* background: url(./img/preparefood.webp) center/cover no-repeat; */
-    background-image: url(./img/preparefood.webp);
+    background-image: url(./assets/preparefood.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1226,6 +1234,8 @@ p{
     background-color: var(--primary-5);
     color: var(--primary-1);
 }
+
+
 
 .hot-meal.card-content{
         background-color: var(--primary-9);
@@ -1580,4 +1590,32 @@ p{
     .m-cards{
         grid-template-columns: 1fr;
     }
+}
+
+.cc-title img {
+    width:200px;
+}
+
+@media (max-width:768px) {
+    
+    .cc-title img {
+    width:200px;
+        }
+    
+    
+}
+
+.cc-title a {
+    text-decoration: none;
+    border: 0px solid var(--font-color-4) ;
+    padding: 10px;
+    background-color: var(--font-color-4);
+    color: var(--primary-white);
+    border-radius: 20px;
+    opacity: 0.7;
+}
+
+.cc-title a:hover {
+    transform: scale(1.1);
+    opacity: 1;
 }

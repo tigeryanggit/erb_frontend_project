@@ -2,58 +2,64 @@ import React from 'react'
 import CardMealCold from "./CardMealCold"
 import { getImageURL } from '../image-util'
 import {cold} from '../data'
+import Footer from './Footer';
+import Shopping from './Shopping';
 
 const ColdMeal = () => {
   
   return (
     
     <>
-    <header class="m-title cold-meal">
-        <h2>涼食</h2>
-        <p>冷食在炎熱的夏季十分流行，清涼的食物和豐富的選擇，成為消暑的理想佳餚，增加生活的樂趣。</p>
-    </header>
 
-    <section class="m-container cold-meal">
-        <h3 class="m-subtitle">涼食食譜</h3>
-        <p class="m-subtitle">清涼的食物和豐富的選擇，能夠為炎炎夏日帶來舒適與震撼，成為消暑的理想佳餚。</p>
+        <Shopping />
+                <header class="m-title cold-meal">
+                    <br />
+                    <br />
+                    <h2>涼食</h2>
+                    <p>冷食在炎熱的夏季十分流行，清涼的食物和豐富的選擇，成為消暑的理想佳餚，增加生活的樂趣。</p>
+                </header>
 
-        <div class="m-cards">
+                <section class="m-container cold-meal">
+                    <h3 class="m-subtitle">涼食食譜</h3>
+                    <p class="m-subtitle">清涼的食物和豐富的選擇，能夠為炎炎夏日帶來舒適與震撼，成為消暑的理想佳餚。</p>
+
+                    <div class="m-cards">
 
 
-            {
+                        {
 
-                cold.map((meal)=>(
-                  
+                            cold.map((meal)=>(
+                            
 
-                  <CardMealCold 
-                    key={meal.id} 
-                    image={getImageURL(meal.image,'./assets/cold/')} 
-                    title={meal.name} 
-                    cookingtime={meal.cookingTime} 
-                    ingredient={
-                                  meal.ingredients.map((x)=>(
-                                                     <li>{x}</li>
-                                )
-                                )
-                                }
+                            <CardMealCold 
+                                key={meal.id} 
+                                image={getImageURL(meal.image,'./assets/cold/')} 
+                                title={meal.name} 
+                                cookingtime={meal.cookingTime} 
+                                ingredient={
+                                            meal.ingredients.map((x)=>(
+                                                                <li>{x}</li>
+                                            )
+                                            )
+                                            }
+                            
+                            
+                            />
+                            )
+
+
+                            )
+
+                        }
+
+
+
                 
+
+                    </div>
                 
-                />
-                )
-
-
-                )
-
-            }
-
-
-
-    
-
-        </div>
-    
-    </section>
-
+                </section>
+        <Footer />
 
     
     </>

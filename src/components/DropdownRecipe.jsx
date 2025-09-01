@@ -1,6 +1,6 @@
 import Dropdown from 'react-bootstrap/Dropdown';
 
-function DropdownRecipe() {
+function DropdownRecipe()  {
   return (
     <Dropdown>
       <Dropdown.Toggle variant="success" id="dropdown-basic">

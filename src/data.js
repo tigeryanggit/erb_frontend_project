@@ -600,7 +600,7 @@ export const MapLinks =[
 ]
 
 
-export const Address=[
+export const AddressHK=[
     {
         id:1,
         ulID:"HKI",
@@ -633,9 +633,12 @@ export const Address=[
                 "香港銅鑼灣渣甸街59號",
                 "香港皇后大道東258號",
                 "香港跑馬地毓秀街2號"]			
-    },
-    {
-        id:2,
+    }
+]
+
+export const AddressKLN=[
+        {
+        id:1,
         ulID:"KLN",
         sicon:"fa-solid fa-street-view",
         stitle:"九龍",
@@ -664,9 +667,13 @@ export const Address=[
                 "九龍尖沙咀海防道30號",
                 "九龍油麻地寶靈街17號官涌市政大廈",
                 "九龍油麻地甘肅街20號",]
-    },
+    }
+]
+
+export const AddressNT=[
+
     {
-        id:3,
+        id:1,
         ulID:"NT",
         sicon:"fa-solid fa-street-view",
         stitle:"新界及離島",

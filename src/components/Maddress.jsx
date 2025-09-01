@@ -1,5 +1,6 @@
-import {Address} from "../data";
-
+import {AddressHK} from "../data";
+import {AddressKLN} from "../data";
+import {AddressNT} from "../data";
 
 
 function Maddress()  {
@@ -8,7 +9,43 @@ function Maddress()  {
     <>
         <div className="container-address">
         {
-            Address.map((mdata)=>(
+            AddressHK.map((mdata)=>(
+              <ul id={mdata.ulID}>
+                  <h3><i className={mdata.sicon} />{mdata.stitle}</h3>
+
+                  {
+                      mdata.text.map((x, index)=>(
+                    
+                        <li key={index}>{x}</li>
+                    
+                    )
+                    )}
+              </ul>
+            ))
+        }
+        </div>
+
+        <div className="container-address">
+        {
+            AddressKLN.map((mdata)=>(
+              <ul id={mdata.ulID}>
+                  <h3><i className={mdata.sicon} />{mdata.stitle}</h3>
+
+                  {
+                      mdata.text.map((x, index)=>(
+                    
+                        <li key={index}>{x}</li>
+                    
+                    )
+                    )}
+              </ul>
+            ))
+        }
+        </div>
+
+        <div className="container-address">
+        {
+            AddressNT.map((mdata)=>(
               <ul id={mdata.ulID}>
                   <h3><i className={mdata.sicon} />{mdata.stitle}</h3>
 
